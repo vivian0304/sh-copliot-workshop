@@ -46,6 +46,6 @@ jobs: # dictionary
     #   run: dotnet publish --configuration Release
     
     # add a new step to publish src/WebApi with Release configuration
-    - name: Publish WebApi
-      run: dotnet publish --configuration Release --output src/WebApi/bin/Release/net5.0/publish src/WebApi/WebApi.csproj
+    # - name: Publish WebApi
+    #   run: dotnet publish --configuration Release --output src/WebApi/bin/Release/net5.0/publish src/WebApi/WebApi.csproj
 
